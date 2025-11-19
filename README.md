@@ -13,6 +13,8 @@ bp SENG programme week 2 individual project
 - Pause and restart.
 
 ## How to run
+1. Visit `https://ecleesam.github.io/src/` OR
+
 1. Place `index.html`, `styles.css`, and `script.js` in the same folder.
 2. Open `index.html` in a modern web browser (Chrome, Firefox, Edge).
 
