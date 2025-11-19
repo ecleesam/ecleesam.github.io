@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Asteroids
+  </title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="ui">
+    <h1>Mini Asteroids</h1>
+    <div class="hud">
+      <span id="score">Score: 0</span>
+      <span id="lives">Lives: 3</span>
+      <span id="wave">Wave: 1</span>
+    </div>
+    <div class="controls">
+      Controls:<br>
+      ← / A rotate left<br>
+      → / D rotate right<br>
+      ↑ / W thrust<br>
+      Space fire<br>
+      P pause
+</div>
+
+  <div class="game-container">
+    <canvas id="game" width="900" height="600"></canvas>
+  </div>
+
+  <div id="overlay" class="hidden">
+    <div id="overlay-box">
+      <h2 id="overlay-title">Paused</h2>
+      <p id="overlay-msg">Press P to resume</p>
+      <button id="btn-restart">Restart</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
